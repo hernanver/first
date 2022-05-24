@@ -1,0 +1,42 @@
+//Primera parte
+
+public class Main{
+    
+
+    public static void main(String[] args){
+        int resultado;
+        resultado = suma(1,2,3);
+        System.out.println(resultado);
+        
+  
+}
+
+
+    public static int suma(int a, int b , int c){
+        return a+b+c;
+}
+}
+
+//Segunda parte
+
+public class Main{
+    
+
+    public static void main(String[] args){
+        
+        coche miCoche = new coche();
+        miCoche.Agregarpuerta();
+
+        System.out.println(miCoche.puertas);
+        
+  
+    }
+}
+
+class coche{
+    public int puertas = 3 ;
+    
+    public void Agregarpuerta() {
+        this.puertas++;
+    }
+}
